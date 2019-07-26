@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Review Generator</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1024">
+</head>
+<body>
+	<div class="card">
+	<div class="cardbody">
+		
+	<h1><center>BASIC FOOD REVIEW GENERATOR</></center></h1>		
+	<br>
+		<form>
+			<center>
+				
+				<div class="input-group input-group-sm mb-4" style="width: 30%">
+				  <div class="input-group-prepend">
+				    <span class="input-group-text" id="inputGroup-sizing-sm">Restaurant</span>
+				  </div>
+				  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Enter the name" id="name" required>
+				</div>
+				<div class="input-group input-group-sm mb-4" style="width: 30%">
+				  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="Approx days ago visited" id="date" required>
+				  <div class="input-group-prepend">
+				    <span class="input-group-text" id="inputGroup-sizing-sm">Days ago</span>
+				  </div>
+				</div>
+				<br>
+				<div style="overflow-x:auto;">	
+				<table>
+						<tr>
+							<td>
+								<strong>Ambience:</strong> <br>
+							</td>
+							<td>
+								<select id="amb">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+								<strong>Taste</strong> <br>
+							</td>
+							<td>
+								<select id="taste">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</td>
+
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+
+							<td>
+								<strong>Value for Money:</strong> <br>
+							</td>
+							<td>
+								<select id="vform">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</td>
+
+
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+
+							<td>
+								<strong>Service</strong> <br>
+							</td>
+							<td>
+								<select id="service">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</td>
+						</tr>
+				</table>
+				</div>
+				<!-- <br><button onclick="getRatingVars()" class="myButton" id="btnb">SUBMIT</button> -->
+				<br><a href="#" onclick="getRatingVars()" class="btn btn-outline-success myButton" id="btnb">SUBMIT</a>
+				<br>
+				<br>
+			</center>
+		</form>
+	</div>
+	</div>
+<br>
+<br>
+<center>
+<div id="prologue"></div>
+<div id="textboxx"></div>
+</center>	
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
