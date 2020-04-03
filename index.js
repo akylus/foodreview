@@ -9,11 +9,11 @@ function getRatingVars() {
 	];
 
 	let finaloverall = [
-	'Restaurant needs to improve a lot',
-	'Can be definitely improved',
-	'Despite the good things, I feel few aspects can be improved',
-	'Despite a small flaw, the restaurant is incredible. But can be improved to push it to perfection',
-	'Extremely wonderful experience. Keep the standards same'
+	'Restaurant needs to improve a lot!!',
+	'Can be definitely improved!',
+	'Despite the good things, I feel few aspects can be improved.',
+	'Despite a small flaw, the restaurant is incredible. But can be improved to push it to perfection.',
+	'Extremely wonderful experience. Keep the standards same!'
 	];
 
 	var name = document.getElementById("name").value;
